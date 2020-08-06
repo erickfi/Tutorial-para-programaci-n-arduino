@@ -108,8 +108,19 @@ Tinkercad es una herramienta online gratuita de Autodesk que permite dibujar esq
 La parte que nos interesa de tinkercad es la creación de ciruitos, la cuál presenta una interfaz agradable con el usuario, cuenta con una barra lateral izquierda donde se encuentran los componentes que puede requerir, lo único que se debe hacer es arrastrar y soltar.
 
 ### Manual de usuario
+Se requiere tener instalados los programas presentados, para ello a continuación se presenta los links de descarga.
 
+- [Visuino](https://www.visuino.com/download)
+- [IDE arduino](https://www.arduino.cc/en/main/software)
+- [Tinkercad](tinkercad.com)
 
+La descarga e instlación de los programas es muy sencillo, solo se debe seguir lo siguiente:
+- Descargamos el software desde la sección de descargas de la página.
+- Terminada la descarga procedemos a ejecutar el programa, aceptamos la licencia de uso y siguimos los pasos que aparecen en el instalador.
+
+***Nota:*** Tinkercad es un simulador online por lo que no necesita ser descargado para su uso.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Bibliografía
 - http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
