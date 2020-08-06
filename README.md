@@ -178,7 +178,25 @@ Si tenemos nuestro arduino conectado para ser usado, damos click en _compilar y 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/paso%204.PNG)
 
 ## Simulación en Tinkercad
+Tinkercad nos permite simular circuitos y observar lo que ocurriría si los hicieramos en tiempo real, sin embargo, tu software está un poco descontinuado por lo que no tiene todas las opciones disponibles, esto no quiere decir que no se pueda realizar la simulación sino que, hay que hacer algunos ajuste.
+### 1. Llamamos al arduino
+Tinkercad nos ofrece una serie de arduinos con distintas aplicaciones, o la base para poder desarrollar el nuestro, sin embargo, hay que tener en cuenta que las tarjetas integradas que actualmente tienen los LCD no están en el software, por lo general nos presenta la siguiente opción.
 
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/LCD%20tinkercad.PNG)
+
+### 2. Arreglamos el código
+Al elegir el arduino, automáticamente se presenta un código genérico, con algunos comentarios e instrucciones de como modificarlo, eliminando la mayoría de los comentarios el código genérico.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/generico%20tinkercad.PNG)
+
+Para adaptar el mismo circuito a nuestro objetivo y de una forma más simplificada podemos hacerlo con el siguiente código.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/codigo%20corregido.PNG)
+
+### 3. Simular
+Al simular en tinkercad, observamos que si realizamos el mismo código en un arduino físico, el LCD nos presentaría.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/simulaci%C3%B3n%20tinkercad.PNG)
 
 
 ### Bibliografía
