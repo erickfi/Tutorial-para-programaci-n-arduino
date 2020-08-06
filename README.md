@@ -209,7 +209,7 @@ Al simular en tinkercad, observamos que si realizamos el mismo código en un ard
 - Elegir el LCD que mejor se adapte al proceso que se quiera mostrar, para ello tener en cuenta los componentes que tiene, asi como los pines de conexión con el arduino.
 - No todos los programas pueden leer códigos desarrollados por terceros, para ello tener en cuenta el cambio que hay que realizar en el código para la simulación.
 
-### Bibliografía
+## Bibliografía
 - http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
 - https://www.ecured.cu/LCD_(pantalla_de_cristal_l%C3%ADquido)#:~:text=Una%20pantalla%20LCD%20(liquid%20crystal,fuente%20de%20luz%20o%20reflectora.
 - https://www.hwlibre.com/visuino-una-herramienta-de-programacion-para-los-creadores-de-hardware/
