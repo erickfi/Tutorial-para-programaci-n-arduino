@@ -177,6 +177,7 @@ Si tenemos nuestro arduino conectado para ser usado, damos click en _compilar y 
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/paso%204.PNG)
 
+## Simulación en Tinkercad
 
 
 
