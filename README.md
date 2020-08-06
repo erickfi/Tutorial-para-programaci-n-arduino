@@ -126,6 +126,47 @@ La descarga e instlación de los programas es muy sencillo, solo se debe seguir 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Controlar un LCD usando visuino
+Como se mencionó anteriormente arduino presenta una amplía gama de control, si usamos para controlar un LCD, debemos tener en cuenta que es lo que buscamos presentar, ya que dependiendo de esto, el código, o en nuestro caso la configuración del software serán diferentes.
+
+A continuación se presenta la forma de controlar un LCD, conectado a un arduino, con el software visuino para presentar líneas de texto estático.
+
+#### 1. Abrimos el software visuino, en herramientas de la placa elegimos ***arduino uno***
+La opción de arduino uno viene por defecto, si no es así se debe elegir la opción, en caso de querer otra placa se debe buscar entre las opciones.
+
+
+#### 2. En el buscador de componentes escribimos ***lcd***
+Al buscar lcd se nos presentan varias opciones elegimos la opción **I2C** del conjunto de ***Text***
+
+Posterior procedemos a conectar la salida del LCD _(out)_ al pin _In_ del canal I2C.
+
+#### 3. Procedemos a agregar los elementos
+
+##### 3.1 Damos click en el símbolo de herramientas del LCD.
+Se desplegará un nuevo menú con las diferentes opciones que podemos agregar al LCD.
+
+##### 3.2 Agregamos el componente texto
+Seleccionamos la opción _Text Field_ del panel izquierdo (flecha azul) y agregamos la función con la opción del panel derecho (flecha roja).
+
+Se puede cambiar el nombre con el que se llamará a este texto, y procederemos a cerrar el menú.
+
+##### 3.3 Agregamos el mensaje
+Seleccionamos el LCD y observamos que el panel inferior izquierdo presenta una serie de opciones.
+
+Nos dirigimos a la opción _Elements_ (flecha roja), y buscamos el nombre que le dimos a nuestra variable de texto (flecha azul), en mi caso _Texto 1_, en la opción _Initial Value_ escribimos el mensaje que queremos presentar, este se presentará en 1 línea si ejecutamos el programa.
+
+
+##### 3.4 Agregar otra línea de texto
+Para agregar una segunda linea de texto repetimos el proceso desde el **paso 3.1**, sin embargo, hay algunas variaciones.
+
+Para que el texto se presente en la siguiente linea debemos cambiar dos valores, iniciamos el valor de _column_ (flecha roja) en 3, y cambiamos a 1 el valor de _Row_ (flecha azul)
+
+
+#### 4. Procedemos a obtener el código
+Damos click en el símbolo de arduino de la barra de herramientas de la parte superior (flecha roja), y automáticamente se nos genera el código en una ventana del IDE de arduino.
+
+Si tenemos nuestro arduino conectado para ser usado, damos click en _compilar y cargar_ (flecha azul).
+
+
 
 
 
