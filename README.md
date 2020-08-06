@@ -75,13 +75,24 @@ Ya que son componentes de uso común dentro de la electrónica, existe una gran 
 
 Las LCD's se conectan al arduino, el cuál dará las instrucciones que la LCD mostrará, está conección se realizá entre pines de ambos componentes, sin embargo, los pines que se conectan dependerán de lo que se quiere presentar en la LCD.
 
+#### Visuino
+ ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/visuino.png)
+ 
+Visuino es el último software innovador de Mitov Software, es una herramienta de programación visual, similar a a Visual Studio pero enfocada a desarrollar para Arduino.
+Visuino incorpora bastantes cosas positivas como la preselección de la placa Arduino con la que desarrollaremos, la selección de componentes que cargaremos y la creación del programa según diagramas lo que nos permite ir más rápidos con la creación de nuestros programas. En otras palabras se puede decir que;
 
+> Visuino es un ambiente de programación basado en la tecnología Open Wire, en donde todo es conectado por una serie de diagramas y pines, así consigues tener un diseño de tu circuito electrónico con su correspondiente código para grabarlo en Arduino.
 
+##### Entorno 
 
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Visuino%20entorno.jpg)
 
+Visuino presenta un entorno cirtual, partiendo desde la posibilidad de elegir la placa de arduino que queremos utilizar, al mismo tiempo presenta una barra lateral de herramientas, donde podemos encontrar prácticamente todos los componentes que podriamos utilizar, dejando a un lado la personalización, finalmente presenta la opción de desplegar el código que se usaría para la tarjeta arduino así como cargarlo y probarlo.
+
+***Nota:*** Para usar al 100 % visualino, y poder bajar el código se debe tener instalado el [IDE de arduino](https://www.arduino.cc/en/main/software).
 
 
 ### Bibliografía
 - http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
 - https://www.ecured.cu/LCD_(pantalla_de_cristal_l%C3%ADquido)#:~:text=Una%20pantalla%20LCD%20(liquid%20crystal,fuente%20de%20luz%20o%20reflectora.
-
+- https://www.hwlibre.com/visuino-una-herramienta-de-programacion-para-los-creadores-de-hardware/
