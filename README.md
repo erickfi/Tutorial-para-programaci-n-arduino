@@ -14,7 +14,26 @@ Para las personas que empiezan a involucrarse en el mundo de la electrónica y e
 
 > El arduino es una placa que tiene todos los elementos necesarios para conectar periféricos a las entradas y salidas de un microcontrolador. Es decir, es una placa impresa con los componentes necesarios para que funcione el microcontrolador y su comunicación con un ordenador a través de la comunicación serial.
 
-De igual forma, existen diversos tipos de arduino, los cuales varían, no solo en costo sino también en aplicación. El arduino más utilizado es ***arduino uno***
+#### ¿Cómo funciona Arduino?
+Anteriormente se habia asociado al arduino con los microcontroladores por lo que su funcionamiento va a ser similar.
+- **Cuenta con una interfaz de entrada.** Esta puede estar directamente unida a los periféricos , o conectarse a ellos a través de puertos.
+- **La interfaz de entrada** Tiene como objetivo trasladar la información al microcontrolador.
+- **El microcontrolador** Es la pieza que se encarga de procesar esos datos. Además, varía dependiendo de las necesidades del proyecto en el que se desee usar la placa, y existe una gran variedad de fabricantes y versiones disponibles.
+- **Interfaz de salida.** Este se encarga de llevar la información procesada a los periféricos autorizados de hacer el uso final de esos datos. En algunos casos puede tratarse de otra placa en la que se centraliza y procesa la información de forma totalmente renovada, o sencillamente, puede ser una pantalla o un altavoz encargado de mostrar la versión final de los datos.
+
+Existen diversos tipos de arduino, los cuales varían, no solo en costo sino también en aplicación. El arduino más utilizado es ***arduino uno***
 
 ![](https://github.com/erickfi/Simulaci-n-con-Arduino/blob/master/Imgs/Arduino.PNG)
+
+Podemos diferenciar al arduino uno de los demás al observar los componentes que contiene: 
+
+> - Arduino Uno es una placa electrónica basada en el microcontrolador ATmega328.
+
+> - Cuenta con 14 entradas/salidas digitales, de las cuales 6 se pueden utilizar como salidas PWM (Modulación por ancho de pulsos) y otras 6 son entradas analógicas.
+
+> - Incluye un resonador cerámico de 16 MHz, un conector USB, un conector de alimentación, una cabecera ICSP y un botón de reseteado.
+
+
+
+
 
