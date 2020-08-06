@@ -91,8 +91,28 @@ Visuino presenta un entorno cirtual, partiendo desde la posibilidad de elegir la
 
 ***Nota:*** Para usar al 100 % visualino, y poder bajar el código se debe tener instalado el [IDE de arduino](https://www.arduino.cc/en/main/software).
 
+#### IDE arduino
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Arduino%20IDE.PNG)
+
+Arduino IDE es un editor de texto y compilador para programar y transferir el contenido de las instrucciones a la placa de Arduino en su lenguaje máquina. El lenguaje de programación utilizado es [Processing](https://processing.org/).
+
+#### Tinkercad
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/tinkercad.png)
+
+Tinkercad es una herramienta online gratuita de Autodesk que permite dibujar esquemas de forma similar a Fritzing. Además permite simulación de circuitos, e incluso podemos realizar la “programación virtual” de las placas Arduino y comprobar el funcionamiento, en otras palabras, es un simulador online.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Tinker%20circuits.PNG)
+
+La parte que nos interesa de tinkercad es la creación de ciruitos, la cuál presenta una interfaz agradable con el usuario, cuenta con una barra lateral izquierda donde se encuentran los componentes que puede requerir, lo único que se debe hacer es arrastrar y soltar.
+
+### Manual de usuario
+
+
 
 ### Bibliografía
 - http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
 - https://www.ecured.cu/LCD_(pantalla_de_cristal_l%C3%ADquido)#:~:text=Una%20pantalla%20LCD%20(liquid%20crystal,fuente%20de%20luz%20o%20reflectora.
 - https://www.hwlibre.com/visuino-una-herramienta-de-programacion-para-los-creadores-de-hardware/
+- https://www.programoergosum.com/cursos-online/arduino/253-curso-de-iniciacion-a-arduino/software-arduino-ide
