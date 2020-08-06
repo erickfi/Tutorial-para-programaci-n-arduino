@@ -198,6 +198,16 @@ Al simular en tinkercad, observamos que si realizamos el mismo código en un ard
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/simulaci%C3%B3n%20tinkercad.PNG)
 
+## Conclusiones
+
+- El arduino en un microcontrolador que nos permite controlar como se desarrolla un circuito.
+- Las conexiones en los pines del arduino depende de lo que queremos conseguir.
+- Un LCD es una interfaz que se acciona por acción de la corriente en un determinado punto del área.
+
+## Recomendaciones
+
+- Elegir el LCD que mejor se adapte al proceso que se quiera mostrar, para ello tener en cuenta los componentes que tiene, asi como los pines de conexión con el arduino.
+- No todos los programas pueden leer códigos desarrollados por terceros, para ello tener en cuenta el cambio que hay que realizar en el código para la simulación.
 
 ### Bibliografía
 - http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
