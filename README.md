@@ -4,6 +4,10 @@
 Dentro de la electrónica existen muchos controladores y microcontroladores que nos permiten realizar un proceso de forma controlada, entre ellos descata el uso del arduino, esto se debe a que ofrece una mayor disponibilidad de componentes con una programación no tan compleja, no obstante, para personas que no tienen conocimiento de programación utilizar arduino puede significar todo un desafío, por ello surgen diferentes sortware que permiten, por medio de bloques preprogramados, diseñar el circuito y proporcionar el código en caso de que se quiera realizar, de forma física, la simulación.
 
 Ya que existen diversas aplicaciones en los que se puede usar un arduino como microcontrolador, mencionar todas y cada una de ellas resultaría extenso, es por ello que nos centraremos en una de las aplicaciones, que para mi parecer, tiene una aplicación más común, el control de un LCD.
+### Objetivos
+
+- Analizar y comprender el funcionamiento de el software visuino para la creación de códigos de arduino con el uso de bloques visuales.
+- Crear y diseñar elementos visuales a través del control LCD con el uso de arduino.
 
 ### Marco Teórico
 
@@ -121,6 +125,10 @@ La descarga e instlación de los programas es muy sencillo, solo se debe seguir 
 ***Nota:*** Tinkercad es un simulador online por lo que no necesita ser descargado para su uso.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Controlar un LCD usando visuino
+
+
+
 
 ### Bibliografía
 - http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
