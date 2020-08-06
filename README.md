@@ -14,7 +14,7 @@ Para las personas que empiezan a involucrarse en el mundo de la electrónica y e
 
 > El arduino es una placa que tiene todos los elementos necesarios para conectar periféricos a las entradas y salidas de un microcontrolador. Es decir, es una placa impresa con los componentes necesarios para que funcione el microcontrolador y su comunicación con un ordenador a través de la comunicación serial.
 
-#### ¿Cómo funciona Arduino?
+##### ¿Cómo funciona Arduino?
 Anteriormente se habia asociado al arduino con los microcontroladores por lo que su funcionamiento va a ser similar.
 - **Cuenta con una interfaz de entrada.** Esta puede estar directamente unida a los periféricos , o conectarse a ellos a través de puertos.
 - **La interfaz de entrada** Tiene como objetivo trasladar la información al microcontrolador.
@@ -33,7 +33,55 @@ Podemos diferenciar al arduino uno de los demás al observar los componentes que
 
 > - Incluye un resonador cerámico de 16 MHz, un conector USB, un conector de alimentación, una cabecera ICSP y un botón de reseteado.
 
+##### Descripción general de la placa arduino
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Arduino%201%20partes.PNG)
+
+Siguiendo las manecillas del reloj tenemos:
+
+- Terminal de referencia analógica (naranja).
+- Tierra digital (verde claro).
+- Terminales digitales 2-13 (verde).
+- Terminales digitales 0-1/ E/S serie – TX/RX (verde oscuro), estos pines no se pueden usar como digitales si se está usando comunicación en serie.
+- Botón de reinicio – S1 (azul oscuro).
+- Programador serie en circuito «In-circuit Serial Programmer» o «ICSP» (azul celeste).
+- Terminales de entrada analógica 0-5 (azul claro).
+- Terminales de alimentación y tierra (alimentación: naranja, tierras: naranja claro).
+- Entrada de alimentación externa (9-12VDC) – X1 (rosa).
+- Selector de alimentación externa o por USB SV1 (púrpura).
+- USB (utilizado para subir programas a la placa y para comunicaciones serie entre la placa y el ordenador; puede utilizarse como alimentación de la placa) (amarillo).
+
+#### LCD
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/LCD.jpg)
+
+Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
+
+Ya que son componentes de uso común dentro de la electrónica, existe una gran variedad de LCD's, para determinar cuál es la más factible de utilizar se debe tener en cuenta:
+
+- **Resolución:** Las dimensiones horizontal y vertical son expresadas en píxeles. Las pantallas HD tienen una resolucion nativa de 1366 x 768 píxeles (720p) y la resolucion nativa en las Full HD es de 1920 x 1080 píxeles (1080p).
+- **Ancho de punto:** La distancia entre los centros de dos píxeles adyacentes. Cuanto menor sea el ancho de punto, tanto menor granularidad tendrá la imagen. El ancho de punto puede ser el mismo en sentido vertical y horizontal, o bien diferente (menos frecuente).
+- **Tamaño:** El tamaño de un panel LCD se mide a lo largo de su diagonal, generalmente expresado en pulgadas (coloquialmente llamada área de visualización activa).
+- **Tiempo de respuesta:** Es el tiempo que demora un píxel en cambiar de un color a otro.
+- **Tipo de matriz:** Activa, pasiva y reactiva.
+- **Ángulo de visión:** Es el máximo ángulo en el que un usuario puede mirar el LCD, es estando desplazado de su centro, sin que se pierda calidad de imagen.Las nuevas pantallas vienen con un angulo de vision de 178 grados
+- **Soporte de color:** Cantidad de colores soportados. Coloquialmente conocida como gama de colores.
+- **Brillo:** La cantidad de luz emitida desde la pantalla; también se conoce como luminosidad
+- **Contraste:** La relación entre la intensidad más brillante y la más oscura.
+- **Aspecto:** La proporción de la anchura y la altura (por ejemplo, 5:4, 4:3, 16:9 y 16:10).
+- **Puertos de entrada:** Por ejemplo DVI, VGA, LVDS o incluso S-Video y HDMI.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Conexion%20arduino%20LCD.PNG)
+
+Las LCD's se conectan al arduino, el cuál dará las instrucciones que la LCD mostrará, está conección se realizá entre pines de ambos componentes, sin embargo, los pines que se conectan dependerán de lo que se quiere presentar en la LCD.
 
 
 
+
+
+
+
+### Bibliografía
+- http://www.iescamp.es/miarduino/2016/01/21/placa-arduino-uno/
+- https://www.ecured.cu/LCD_(pantalla_de_cristal_l%C3%ADquido)#:~:text=Una%20pantalla%20LCD%20(liquid%20crystal,fuente%20de%20luz%20o%20reflectora.
 
