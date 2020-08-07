@@ -214,3 +214,6 @@ Al simular en tinkercad, observamos que si realizamos el mismo código en un ard
 - https://www.ecured.cu/LCD_(pantalla_de_cristal_l%C3%ADquido)#:~:text=Una%20pantalla%20LCD%20(liquid%20crystal,fuente%20de%20luz%20o%20reflectora.
 - https://www.hwlibre.com/visuino-una-herramienta-de-programacion-para-los-creadores-de-hardware/
 - https://www.programoergosum.com/cursos-online/arduino/253-curso-de-iniciacion-a-arduino/software-arduino-ide
+
+## Anexos
+- [video tutorial](https://www.youtube.com/watch?v=tOtAcL7KxtQ&feature=youtu.be)
