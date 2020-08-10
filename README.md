@@ -163,6 +163,16 @@ Ubicado en la parte inferior, presenta las librerías que se está usando al rea
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/menu%20de%20configuracion%20de%20componentes.PNG)
 
 Se encuentra en la parte inferior izquierda, para acceder a ella se debe seleccionar el componente y puede empezar a configurar el mismo.
+
+##### Botón de arduino
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Boton%20arduino.PNG)
+
+Una vez terminada nuestra programación por bloques, el software nos permite descargar el código, cargarlo y ejecutarlo en nuestro arduino.
+
+- El botón con el símbolo de arduino, flecha roja, nos permite descargar el código.
+- El botón con el símbolo de la placa arduino, nos permite cargar y ejecutar el código en nuestro arduino.
+
 #### IDE arduino
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Arduino%20IDE.PNG)
