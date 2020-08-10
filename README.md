@@ -95,6 +95,64 @@ Visuino presenta un entorno cirtual, partiendo desde la posibilidad de elegir la
 
 ***Nota:*** Para usar al 100 % visualino, y poder bajar el código se debe tener instalado el [IDE de arduino](https://www.arduino.cc/en/main/software).
 
+##### Placas
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/placas.PNG)
+
+Visuino da la oportunidad de elegir la placa con la que queremos trabajar, ofreciendo una amplia gama de placas arduino entre otras, entre ellas encontramos:
+
+- Arduino UNO
+- Arduino Nano
+- Arduino Pro 168
+- Digital Loggers PLDuino
+- Lynxmotion BotBoarduino
+
+##### Componentes
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/componentes.PNG)
+
+Visuino cuenta con una gran lista de componentes, enumerarla sería demasiado extenso, estas se agrupan por categorías, entre las cuáles están.
+
+- Matemática
+- Medición 
+- Memorias
+- Motores
+- Generadores
+- Entradas y salidas (analógicas)
+- Integrados
+- Fuentes de corriente y voltaje
+- Sincronizadores
+- Texto
+- Controles remotos
+- Convertidores
+- Display's 
+- Código binario
+- Componenetes 
+
+##### Barra de componentes
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/barra%20de%20componentes.PNG)
+
+SE desplaza la clasificación de los componenes, cuenta con un buscador, y opciones que modifican esta visualizacón
+
+##### Barra de herramientas
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Barra%20de%20herramientas.PNG)
+
+Se presenta en la parte superior de la interfaz, entre sus opciones de izquierda a derecha están.
+- Abrir, cerrar y guardar un documento
+- Editar
+- Ver
+- Arduino, para obtener el y cargar el código
+- Ayuda, donde se puede comunicar hasta con los creacdores del software.
+
+##### Visualizador
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/visualizador.PNG)
+ Ubicado debajo de la barra de herramientas, muestra el entorno general de la placa y el área sobre la que estamos trabajando.
+
+
+
 #### IDE arduino
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Arduino%20IDE.PNG)
