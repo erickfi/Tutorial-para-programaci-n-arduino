@@ -152,11 +152,11 @@ Se presenta en la parte superior de la interfaz, entre sus opciones de izquierda
 
  Ubicado debajo de la barra de herramientas, muestra el entorno general de la placa y el área sobre la que estamos trabajando.
 
-##### Paquetes y librerías
+##### Vistas, paquetes y librerías
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/paquetes%20y%20librerias.PNG)
 
-Ubicado en la parte inferior, presenta las librerías que se está usando al realizar el programa
+Ubicado en la parte inferior, presenta las vistas de la terminal virtual, la vista del graficador de alcance, las librerías que se está usando al realizar el programa, entre otros.
 
 ##### Panel de propiedades
 
