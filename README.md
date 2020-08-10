@@ -149,6 +149,7 @@ Se presenta en la parte superior de la interfaz, entre sus opciones de izquierda
 ##### Visualizador
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/visualizador.PNG)
+
  Ubicado debajo de la barra de herramientas, muestra el entorno general de la placa y el área sobre la que estamos trabajando.
 
 ##### Paquetes y librerías
