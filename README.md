@@ -143,7 +143,7 @@ Se presenta en la parte superior de la interfaz, entre sus opciones de izquierda
 - Abrir, cerrar y guardar un documento
 - Editar
 - Ver
-- Arduino, para obtener el y cargar el código
+- Arduino, para obtener y cargar el código
 - Ayuda, donde se puede comunicar hasta con los creacdores del software.
 
 ##### Visualizador
@@ -151,8 +151,17 @@ Se presenta en la parte superior de la interfaz, entre sus opciones de izquierda
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/visualizador.PNG)
  Ubicado debajo de la barra de herramientas, muestra el entorno general de la placa y el área sobre la que estamos trabajando.
 
+##### Paquetes y librerías
 
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/paquetes%20y%20librerias.PNG)
 
+Ubicado en la parte inferior, presenta las librerías que se está usando al realizar el programa
+
+##### Menpu de configuración de componentes
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/menu%20de%20configuracion%20de%20componentes.PNG)
+
+Se encuentra en la parte inferior izquierda, para acceder a ella se debe seleccionar el componente y puede empezar a configurar el mismo.
 #### IDE arduino
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Arduino%20IDE.PNG)
