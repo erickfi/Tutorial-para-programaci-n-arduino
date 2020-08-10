@@ -158,7 +158,7 @@ Se presenta en la parte superior de la interfaz, entre sus opciones de izquierda
 
 Ubicado en la parte inferior, presenta las librerías que se está usando al realizar el programa
 
-##### Menpu de configuración de componentes
+##### Panel de propiedades
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/menu%20de%20configuracion%20de%20componentes.PNG)
 
