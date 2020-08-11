@@ -330,12 +330,29 @@ Obtenemos el mismo resultado con una LCD normal.
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/tinker%20lcd%20normal.PNG)
 
+## Errores de código
+
+> Existen pocos software para simular componentes actualmente, esto se debe a que al volverse comunes son fáciles de adquirir.
+
+Para simular nuestro arduino usamos el programa tinkercad, pero se nos presentaron algunos problemas al simular el código que obtuvimos con el arduino.
+
+- **LCD I2C**
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Error%20codigo%20tinkercad/LCD%20I2C.PNG)
+
+- **LCD normal**
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Error%20codigo%20tinkercad/LCD%20normal.PNG)
+
+Estos errores se presentaron es por el lenguaje de programación, la placa arduino se puede programar en un lenguaje C, C++, entre otros, sin embargo, el programa tinkercad está hecho en un lenguaje C++, mientras que visuino genera un código C, a esto se suma las funciones que genera el software visuino que no pueden ser leídas por tinkercad, por ello fue que se realizó un cambio en el código para el simulador de tinkercad.
+
 ## Conclusiones
 
 - El arduino en un microcontrolador que nos permite controlar como se desarrolla un circuito.
 - Las conexiones en los pines del arduino depende de lo que queremos conseguir.
 - Un LCD es una interfaz que se acciona por acción de la corriente en un determinado punto del área.
-- Una LCD I2C brinda la posibilidad de tener más pines disponibles para otras conexiones en el arduino
+- Una LCD I2C brinda la posibilidad de tener más pines disponibles para otras conexiones en el arduino.
+- Visuino brinda un código en lenguaje C, con funcionas creadas por Mitov, por lo que no se podrán simular facilmente, sin embargo, la placa arduino puede leerlas correctamente.
 
 ## Recomendaciones
 
