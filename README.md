@@ -206,7 +206,8 @@ La descarga e instlación de los programas es muy sencillo, solo se debe seguir 
 ## Controlar un LCD usando visuino
 Como se mencionó anteriormente arduino presenta una amplía gama de control, si usamos para controlar un LCD, debemos tener en cuenta que es lo que buscamos presentar, ya que dependiendo de esto, el código, o en nuestro caso la configuración del software serán diferentes.
 
-A continuación se presenta la forma de controlar un LCD, conectado a un arduino, con el software visuino para presentar líneas de texto estático.
+A continuación se presenta la forma de controlar dos LCD distintos, conectado a un arduino, con el software visuino para presentar líneas de texto estático.
+## LCD I2C
 
 #### 1. Abrimos el software visuino, en herramientas de la placa elegimos ***arduino uno***
 La opción de arduino uno viene por defecto, si no es así se debe elegir la opción, en caso de querer otra placa se debe buscar entre las opciones.
@@ -275,6 +276,59 @@ Para adaptar el mismo circuito a nuestro objetivo y de una forma más simplifica
 Al simular en tinkercad, observamos que si realizamos el mismo código en un arduino físico, el LCD nos presentaría.
 
 ![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/simulaci%C3%B3n%20tinkercad.PNG)
+
+## LCD Normal
+
+### 1. Elegir el LCD
+
+Completado el primer paso del proceso descrito anteriormente, procedemos a buscar la LCD que usaremos.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/lcd.PNG)
+
+Para ello vamos al buscador de componentes y escribimos _lcd_ y elegimos la opción ***LiquidCrystalDisplay*** que es la LCD básica.
+
+### 2. Conectamos los pines
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/Pines%20conectados.PNG)
+
+Elegida la placa arduino procedemos a conectar los pines, de la siguiente manera:
+
+- Los pines ***Data*** de la LCD, lo números ***7,6,5,4***, se conectan al pin digital de la placa arduino, a los pines ***2,3,4,5***, respectivamente.
+- Se conecta el pin ***Eneable*** de la LCD al pin digital de la placa arduino ***(SPI-MOSI) (11)***.
+- Se conecta el pin ***Registrer Select*** de la LCD al pin digital de la placa arduino ***(SPI-MOSI) (12)***.
+
+### 3. Agregamos el texto a presentar.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/texto.PNG)
+
+Se realiza del mismo modo que el punto 3.2 de la LCD I2C
+
+### 4. Obtenemos el código
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/paso%204.PNG)
+
+Usamos el boton arduino y generamos el código para una LCD normal.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/codigo%20lcd%20normal.PNG)
+
+A simple vista se observa una pequeña variación si se usará un LCD I2C.
+
+## Simulador en Tinkercad
+
+El proceso es el mismo explicado anteriormente, pero con unos pequeños cambios.
+
+- Debemos asegurarnos de que los pines estén conectado de la misma forma que lo hizo en visuino.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/lcdntinker.PNG)
+
+Ya que visuino crea funciones propias, debemos eliminarlas y adecuarlas a lo que puede leer el software tinkercad, nuestro programa sería
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/codigo%20lcd%20normal.PNG)
+
+## Simular 
+Obtenemos el mismo resultado con una LCD normal.
+
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/tinker%20lcd%20normal.PNGO)
 
 ## Conclusiones
 
