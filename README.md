@@ -328,7 +328,7 @@ Ya que visuino crea funciones propias, debemos eliminarlas y adecuarlas a lo que
 ## Simular 
 Obtenemos el mismo resultado con una LCD normal.
 
-![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/tinker%20lcd%20normal.PNGO)
+![](https://github.com/erickfi/Tutorial-para-programaci-n-arduino/blob/master/Imagenes/tinker%20lcd%20normal.PNG)
 
 ## Conclusiones
 
