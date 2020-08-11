@@ -335,6 +335,7 @@ Obtenemos el mismo resultado con una LCD normal.
 - El arduino en un microcontrolador que nos permite controlar como se desarrolla un circuito.
 - Las conexiones en los pines del arduino depende de lo que queremos conseguir.
 - Un LCD es una interfaz que se acciona por acción de la corriente en un determinado punto del área.
+- Una LCD I2C brinda la posibilidad de tener más pines disponibles para otras conexiones en el arduino
 
 ## Recomendaciones
 
