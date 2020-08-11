@@ -349,3 +349,5 @@ Obtenemos el mismo resultado con una LCD normal.
 
 ## Anexos
 - [video tutorial](https://www.youtube.com/watch?v=tOtAcL7KxtQ&feature=youtu.be)
+- [LCD I2C simulación](https://www.tinkercad.com/things/5rT71lMA14f-simulacion-arduino/editel?sharecode=V69eV5HHlAZU1rPpCC-jXhd8ezIwabCrr3bLXC3lCMs)
+- [LCD normal simulación](https://www.tinkercad.com/things/hAI5Ut2Ff0H-exquisite-juttuli/editel?sharecode=fq6904w05o9ASUpshb5xAy7qtwnEaLI_soRZnP56-Q4)
