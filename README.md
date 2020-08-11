@@ -194,7 +194,7 @@ Se requiere tener instalados los programas presentados, para ello a continuació
 
 - [Visuino](https://www.visuino.com/download)
 - [IDE arduino](https://www.arduino.cc/en/main/software)
-- [Tinkercad](tinkercad.com)
+- [Tinkercad](https://www.tinkercad.com/)
 
 La descarga e instlación de los programas es muy sencillo, solo se debe seguir lo siguiente:
 - Descargamos el software desde la sección de descargas de la página.
